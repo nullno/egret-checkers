@@ -1,0 +1,40 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/game/game.js",
+		"libs/modules/promise/promise.js"
+	],
+	"game": [
+		"bin-debug/utils/RequestUtil.js",
+		"bin-debug/game/fragment/pet_info.js",
+		"bin-debug/BASE/AssetAdapter.js",
+		"bin-debug/BASE/Loading.js",
+		"bin-debug/BASE/Platform.js",
+		"bin-debug/BASE/ThemeAdapter.js",
+		"bin-debug/config/Setting.js",
+		"bin-debug/game/MainScene.js",
+		"bin-debug/game/SceneManager.js",
+		"bin-debug/game/data/mianData.js",
+		"bin-debug/game/data/UserData.js",
+		"bin-debug/game/fragment/confirm_box.js",
+		"bin-debug/game/fragment/mask.js",
+		"bin-debug/BASE/API.js",
+		"bin-debug/game/fragment/prop_info.js",
+		"bin-debug/game/fragment/select_step.js",
+		"bin-debug/game/fragment/step_award_card.js",
+		"bin-debug/game/fragment/step_award_tip.js",
+		"bin-debug/game/fragment/tip_msg.js",
+		"bin-debug/game/fragment/wait_load.js",
+		"bin-debug/game/scene/Home.js",
+		"bin-debug/game/scene/Map.js",
+		"bin-debug/game/scene/Start.js",
+		"bin-debug/utils/PopUps.js",
+		"bin-debug/Main.js",
+		"bin-debug/utils/Tool.js"
+	]
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16df151dbd5" ></w:Config>
+	<e:Group id="Main_group" width="750" height="1334" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0">
+		<e:Image id="bgcover" scaleX="1" scaleY="1" width="750" height="1334" horizontalCenter="0" verticalCenter="0" anchorOffsetX="390" anchorOffsetY="674" x="0" y="0" source="bg_home_jpg"/>
+		<e:Group id="Role_boy" width="403.44" height="928.73" x="339.56" y="297.91" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="boy_png" anchorOffsetX="200" anchorOffsetY="814" top="0" bottom="-0.2699999999999818" left="0" right="0.4399999999999977" x="-375" y="-365.91" scaleX="1" scaleY="1" fillMode="clip" skewX="0"/>
+		</e:Group>
+		<e:Group id="Role_girl" width="403.44" height="928.73" x="341.56" y="295.91" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" top="52" bottom="-10.269999999999982" left="36" right="32.44" x="-375" y="-365.91" scaleX="1" scaleY="1" fillMode="clip" source="girl_png"/>
+		</e:Group>
+		<e:Group id="PetArea" width="372" height="444" x="194.5" y="1188" anchorOffsetX="186" anchorOffsetY="444" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="panda_png" anchorOffsetX="118" anchorOffsetY="116" fillMode="clip" bottom="2" right="0" height="240"/>
+			<e:Group id="Pet_Talk" width="347" height="121" x="157" y="74" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" source="bubble" left="0" right="0" top="7" bottom="0"/>
+				<e:Label text="爱你呦！" fontFamily="Microsoft YaHei" textColor="0x000000" textAlign="center" verticalAlign="middle" anchorOffsetY="0" left="12" right="11" top="17" bottom="23" anchorOffsetX="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Panel id="btn_trip" y="1252.14" skinName="btn_yellow" anchorOffsetX="171.43" anchorOffsetY="47.14" width="342.86" height="100" horizontalCenter="0.5">
+			<e:Label text="开始旅程" left="0" right="-0.13999999999998636" top="0" bottom="0" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" size="35" bold="true"/>
+		</e:Panel>
+		<e:Button id="btn_hot_activity" label="" x="659.8" anchorOffsetX="52.24" anchorOffsetY="53.92" touchEnabled="true" width="107" height="113.74" y="503.92">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_hot_activity"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Panel id="UserPanel" width="278" height="95" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="-576.5" horizontalCenter="0">
+		<e:Rect top="0" bottom="0" left="0" right="0" fillColor="0xffffff" ellipseWidth="30" ellipseHeight="30"/>
+		<e:Rect top="4" bottom="5" left="5" right="4" ellipseWidth="30" ellipseHeight="30" fillColor="0xf8f5f0" anchorOffsetX="0" anchorOffsetY="0" width="230" height="104"/>
+		<e:Image id="Aavatar" width="60" height="60" x="18.5" y="17.5" anchorOffsetX="0" anchorOffsetY="0" source="defult_avatar_png"/>
+		<e:Group id="LevelBar" width="173" height="22" x="85.5" y="54.5" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0" strokeWeight="2" strokeColor="0xf28215" ellipseWidth="15" ellipseHeight="15" anchorOffsetY="0"/>
+		<e:Rect fillAlpha="1" strokeWeight="2" strokeColor="0xF28215" ellipseWidth="10" ellipseHeight="10" anchorOffsetY="0" strokeAlpha="0" fillColor="0xffca00" width="85" anchorOffsetX="0" x="0" top="0" bottom="0"/>
+			<e:Label id="LevelText" text="LV.666" y="2.5" textColor="0x2B2020" fontFamily="Microsoft YaHei" bold="true" size="20" anchorOffsetX="0" anchorOffsetY="0" height="18" x="-85.5" scaleX="1" scaleY="1" textAlign="center" verticalAlign="middle" left="0" right="0"/>
+		</e:Group>
+		<e:Label id="UsernameText" text="nullno" x="85" y="23" textColor="0x2b2020" bold="true" fontFamily="Microsoft YaHei" size="20"/>
+	</e:Panel>
+
+	<e:Panel id="Center_panel" height="689" y="1334" anchorOffsetY="0" left="0" right="-4" skinName="whiteop" anchorOffsetX="0">
+		<e:Panel width="700" height="250" skinName="whiteround" horizontalCenter="0" top="138">
+			<e:Rect height="1" y="73" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xbfbfbf" width="630" x="37"/>
+			<e:Rect height="100" y="111" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xBFBFBF" width="1" x="234"/>
+			<e:Rect height="100" y="111" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xBFBFBF" width="1" x="438"/>
+			<e:Label id="Join_days" text="加入无忧行大家庭0天" x="35" y="26" fontFamily="Microsoft YaHei" textColor="0x000000"/>
+			<e:Group id="Map_score" width="171" height="98" x="50" y="110" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Label text="解锁地图" textColor="0x525252" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1" textAlign="center" top="0" horizontalCenter="0"/>
+				<e:Label id="Maps_haveNum" text="2" x="0.5" y="49" textColor="0x525252" fontFamily="Microsoft YaHei" size="50" scaleX="1" scaleY="1" textAlign="right" bold="true" anchorOffsetX="0" width="71"/>
+				<e:Label text="/" x="72.5" y="52" fontFamily="Microsoft YaHei" size="40" scaleX="1" scaleY="1" textAlign="center" bold="true" textColor="0x8e8e8e"/>
+				<e:Label id="Maps_num" text="8" x="89.5" y="49" fontFamily="Microsoft YaHei" size="50" scaleX="1" scaleY="1" textAlign="left" bold="true" textColor="0x8e8e8e" anchorOffsetX="0" width="77"/>
+			</e:Group>
+			<e:Group id="Pet_score" width="171" height="98" x="251" y="110" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Label text="解锁宠物" textColor="0x525252" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1" textAlign="center" top="0" horizontalCenter="0"/>
+				<e:Label id="Pets_haveNum" text="2" x="3.5" y="49" textColor="0x525252" fontFamily="Microsoft YaHei" size="50" scaleX="1" scaleY="1" textAlign="right" bold="true" anchorOffsetX="0" width="68"/>
+				<e:Label text="/" x="72.5" y="52" textColor="0x8E8E8E" fontFamily="Microsoft YaHei" size="40" scaleX="1" scaleY="1" textAlign="center" bold="true"/>
+				<e:Label id="Pets_num" text="8" x="89.5" y="49" textColor="0x8E8E8E" fontFamily="Microsoft YaHei" size="50" scaleX="1" scaleY="1" textAlign="left" bold="true" anchorOffsetX="0" width="79"/>
+			</e:Group>
+			<e:Group id="Consumption_score" width="171" height="98" x="456" y="110" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Label text="积分" textColor="0x525252" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1" textAlign="center" top="0" horizontalCenter="0"/>
+				<e:Label id="Consumption_num" text="8888" y="49" textColor="0x525252" fontFamily="Microsoft YaHei" size="50" scaleX="1" scaleY="1" textAlign="center" bold="true" anchorOffsetX="0" left="0" right="0"/>
+			</e:Group>
+		</e:Panel>
+		<e:Panel width="700" height="264" skinName="whiteround" horizontalCenter="0" top="411" anchorOffsetY="0">
+			<e:Rect height="1" y="73" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xBFBFBF" width="630" x="37"/>
+			<e:Label text="我的收集" x="35" y="26" fontFamily="Microsoft YaHei" textColor="0x000000"/>
+			<e:Label id="More_CollectPets" text="更多收集&gt;" x="553" y="29" textColor="0x525252" fontFamily="Microsoft YaHei" size="25" visible="false"/>
+			<e:Scroller height="157" y="87" anchorOffsetY="0" anchorOffsetX="0" width="630" horizontalCenter="0" enabled="true">
+				<e:List id="CollectPets" itemRendererSkinName="collect_pet">
+					<e:layout>
+						<e:HorizontalLayout gap="22" horizontalAlign="center" verticalAlign="middle"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Panel>
+	</e:Panel>
+</e:Skin>

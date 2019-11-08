@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="prop_card" width="205" height="295" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="103" anchorOffsetY="149" width="205" x="103" height="295" y="149" touchChildren="true">
+		<e:Label id="prop_id" text="{data.tid}" x="15" y="49" size="1" visible="false"/>
+		<e:Rect left="0" right="0" top="0" bottom="0" ellipseWidth="30" ellipseHeight="30" fillColor="{data.themeColor}"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="bg_card_png"/>
+		<e:Label text="{data.name}" y="2" size="20" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetY="0" left="0" right="0" height="33" verticalAlign="middle"/>
+		<e:Label text="{data.percentage}" y="44.46" textColor="{data.themeColor}" fontFamily="Microsoft YaHei" bold="true" size="23" anchorOffsetX="1" anchorOffsetY="-0.54" left="0" right="0" textAlign="center" height="25"/>
+		<e:Label text="基础盘面可使用" y="249" size="18" fontFamily="Microsoft YaHei" left="0" right="0" textAlign="center" textColor="{data.themeColor}"/>
+		<e:Rect width="135" height="25" x="36" y="211" fillColor="{data.themeColor}" ellipseWidth="150" ellipseHeight="135" anchorOffsetY="0" fillAlpha="0.7"/>
+		<e:Image anchorOffsetX="76" anchorOffsetY="62" horizontalCenter="-4.5" bottom="74" source="{data.pic}"/>
+		<e:Button id="card_warn" label="" x="179.68" y="36.82" anchorOffsetX="17.68" anchorOffsetY="16.32" enabled="true" touchEnabled="true" width="34" height="34">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="warning"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

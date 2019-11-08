@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="tip_msgSkin" width="750" height="106" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e204be650" ></w:Config>
+	<e:Group id="M_group" anchorOffsetY="55" anchorOffsetX="311" width="750" height="106" y="55" x="311">
+		<e:Rect fillColor="0x2d2d2d" fillAlpha="0.5" anchorOffsetX="0" left="0" right="0" top="0" bottom="0" visible="false"/>
+		<e:Image anchorOffsetY="0" source="dark_bg_png" left="0" right="0" top="0" bottom="0"/>
+		<e:Label id="Tip_Label" text="msg" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" size="30" anchorOffsetY="0" scaleX="1" scaleY="1" textColor="0xffffff" left="0" right="0" top="0" bottom="0"/>
+		<e:Button id="Close_tip" label="" right="6" top="9" anchorOffsetX="0" width="41" anchorOffsetY="0" height="41" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

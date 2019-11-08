@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pet_card" width="205" height="295" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="103" anchorOffsetY="149" width="205" height="295" y="149" x="103">
+		<e:Rect left="0" right="0" top="0" bottom="0" ellipseWidth="30" ellipseHeight="30" fillColor="{data.themeColor}"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="bg_card_png"/>
+		<e:Label text="{data.name}" y="2" size="20" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetY="0" left="0" right="0" height="33" verticalAlign="middle"/>
+		<e:Label y="249" size="18" fontFamily="Microsoft YaHei" left="0" right="0" textAlign="center" textColor="{data.themeColor}" text="{data.country_name}"/>
+		<e:Rect width="135" height="25" x="36" y="211" ellipseWidth="150" ellipseHeight="135" anchorOffsetY="0" fillAlpha="0.7" fillColor="{data.themeColor}"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" bottom="74" width="130" height="130" source="{data.pic}" horizontalCenter="0.5"/>
+		<e:Label y="44" textAlign="center" fontFamily="Microsoft YaHei" left="0" right="0" anchorOffsetY="0" height="36" text="{data.statusText}"/>
+		<e:Panel left="0" right="0" top="0" bottom="0" visible="{data.status}">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff" fillAlpha="0.5"/>
+			<e:Image width="33" height="33" source="lock" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-86" horizontalCenter="0"/>
+		</e:Panel>
+	</e:Group>
+</e:Skin>

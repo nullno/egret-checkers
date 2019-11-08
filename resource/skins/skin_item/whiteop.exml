@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="whiteop" width="750" height="688" xmlns:e="http://ns.egret.com/eui">
+	<e:Image left="0" right="-8" top="0" bottom="0" source="white_opticy_png" anchorOffsetX="0"/>
+</e:Skin>

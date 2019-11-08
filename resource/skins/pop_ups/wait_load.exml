@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="async_loadSkin" width="750" height="135" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e1fb911fb" ></w:Config>
+	<e:Label id="Load_Label" text="加载中..." textAlign="center" size="25" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" width="750" x="0" y="110"/>
+	<e:Image id="Load_Icon" fillMode="clip" source="icon_load" anchorOffsetX="48" anchorOffsetY="48" scaleX="1" scaleY="1" x="375" y="48"/>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="btn_country" width="260" height="52" xmlns:e="http://ns.egret.com/eui">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff" fillAlpha="0.8" strokeColor="0xffffff" strokeWeight="3" ellipseWidth="52" ellipseHeight="52" width="179" height="52"/>
+</e:Skin>

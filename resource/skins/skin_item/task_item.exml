@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="task_item" width="650" height="100" xmlns:e="http://ns.egret.com/eui">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff"/>
+		<e:Image x="6" source="icon_flow" verticalCenter="1.5"/>
+		<e:Rect height="1" left="0" right="0" bottom="0" strokeColor="0xe6e6e6" fillColor="0xe6e6e6"/>
+		<e:Label text="出行先锋" x="58" y="21" textColor="0x000000" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="196"/>
+		<e:Label text="今日成长值获取+20％" x="251" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="238" size="23" textColor="0x565656" top="0" bottom="0" verticalAlign="middle"/>
+		<e:Label text="今日步数达到5000步" x="58" y="60" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="402" size="20" textColor="0x919191"/>
+		<e:Panel width="152" height="56" right="12" anchorOffsetY="0" anchorOffsetX="0" skinName="btn_yellow" verticalCenter="0">
+			<e:Label text="已完成" fontFamily="Microsoft YaHei" size="25" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" left="0" right="0" top="1" bottom="0" textColor="0x5b5b5b" anchorOffsetY="0"/>
+		</e:Panel>
+	</e:Group>
+</e:Skin>

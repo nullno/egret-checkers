@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="collect_pet" width="140" height="140" xmlns:e="http://ns.egret.com/eui">
+	<e:Group width="140" x="72" height="140" y="71" anchorOffsetX="72" anchorOffsetY="71">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xe5e5e5" ellipseWidth="30" ellipseHeight="30" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image left="0" right="0" top="0" bottom="0" anchorOffsetX="72" anchorOffsetY="70" x="0" y="0" scaleX="1" scaleY="1" source="{data.pic}"/>
+	</e:Group>
+</e:Skin>

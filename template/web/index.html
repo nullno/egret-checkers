@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>无忧小宠</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="hotcss" content="design-width=750">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <script>
+        (function (win, doc) { if (!win.addEventListener) { return } var html = document.documentElement; function setFont() { var html = document.documentElement; var k = 750; html.style.fontSize = html.clientWidth / k * 100 + "px" } setFont(); setTimeout(function () { setFont() }, 300); doc.addEventListener("DOMContentLoaded", setFont, false); win.addEventListener("resize", setFont, false); win.addEventListener("load", setFont, false) })(window, document);
+    </script>
+<style>
+    * {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);margin: 0;padding: 0;border: 0;outline: none;list-style: none;box-sizing: border-box;text-decoration: none;background: none;}
+    body,html{font-size:0.25rem;font-family: "Microsoft YaHei"; background: #FEC76D;}
+    .game-container{background:url(resource/assets/loading/loading.jpg) no-repeat;background-size:100% 100%;}
+
+    </style>
+
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="top-name" style="width:100%;position:fixed;z-index:0;top:0;text-align:center;font-size:0.3rem;line-height:0.7rem;"></div>
+        <div style="margin:0 auto;width:100%;height:100%;" class="egret-player" data-entry-class="Main" data-orientation="portrait" data-scale-mode="showAll" data-frame-rate="30" data-content-width="750"
+ data-content-height="1334" data-multi-fingered="2" data-show-fps="false" data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.5">
+</div>
+</div>
+<script>
+    var gamecontainer = document.querySelector('.game-container');
+    window.onresize = function () {
+        gamecontainer.style.height = window.innerHeight + "px";
+        gamecontainer.style.width = window.innerWidth + "px";
+
+    };
+    window.onresize();
+</script>
+<script>
+    var loadScript = function (list, callback) {
+        var loaded = 0;
+        var loadNext = function () {
+            loadSingleScript(list[loaded], function () {
+                loaded++;
+                if (loaded >= list.length) {
+                    callback();
+                }
+                else {
+                    loadNext();
+                }
+            })
+        };
+        loadNext();
+    };
+
+    var loadSingleScript = function (src, callback) {
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = src;
+        s.addEventListener('load', function () {
+            s.parentNode.removeChild(s);
+            s.removeEventListener('load', arguments.callee, false);
+            callback();
+        }, false);
+        document.body.appendChild(s);
+    };
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', './manifest.json?v=' + Math.random(), true);
+    xhr.addEventListener("load", function () {
+        var manifest = JSON.parse(xhr.response);
+        var list = manifest.initial.concat(manifest.game);
+        loadScript(list, function () {
+            /**
+             * {
+             * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
+             * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
+             * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
+             * "calculateCanvasScaleFactor": //a function return canvas scale factor
+             * }
+             **/
+            egret.runEgret({
+                renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor: function (context) {
+                    var backingStore = context.backingStorePixelRatio ||
+                        context.webkitBackingStorePixelRatio ||
+                        context.mozBackingStorePixelRatio ||
+                        context.msBackingStorePixelRatio ||
+                        context.oBackingStorePixelRatio ||
+                        context.backingStorePixelRatio || 1;
+                    return (window.devicePixelRatio || 1) / backingStore;
+                }
+            });
+        });
+    });
+    xhr.send(null);
+</script>
+<script>
+    //deeplink 打开无忧行app   
+    loadSingleScript('https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js', function () {
+
+        var btnapp = document.createElement('div');
+        btnapp.innerHTML = '<button class="app-download-btn" id="app-download-btn" style="position:fixed;font-size:0.3rem;bottom:0;right:0;background:green;color:#fff;border-radius:0.1rem;">打开APP</button>';
+        gamecontainer.appendChild(btnapp);
+        var clipboard = new ClipboardJS('.app-download-btn', {
+            text: function (trigger) {
+                var content = '';
+                content = makeUrl('h5', '小游戏测试', window.location.href, window.location.href, '')
+                return content;
+            }
+        });
+        clipboard.on('success', function (e) {
+            var url = [
+                'https://at.umtrack.com/b0naKf',//安卓
+                'https://at.umtrack.com/HLfyia',//ios
+                'jegotrip://deeplink?title=&describe=1&url=' + encodeURIComponent(window.location.href)
+            ]
+            var wxua = window.navigator.userAgent.toLowerCase();
+            if (checkOs() == 0) {
+                if (wxua.match(/MicroMessenger/i) == 'micromessenger') {
+                    window.location.href = url[0];
+                    window.open(url[0]);
+                } else {
+                    window.location.href = url[2];
+                    window.open(url[0]);
+                }
+            }
+            if (checkOs() == 1) {
+                window.location.href = url[1];
+                window.open(url[1]);
+            }
+        });
+        function makeUrl(type, title, desc, url, param) {
+            var obj = {
+                type: type,
+                title: title,
+                describe: desc,
+                url: url,
+                param: param
+            }
+            return "jegotrip://deeplink?json=" + encodeURIComponent(JSON.stringify(obj))
+        }
+
+        function checkOs() {
+            var ua = navigator.userAgent;
+            if (ua.match(/android/i)) {  // 安卓
+                return 0;
+            } else if (ua.match(/(iPhone|iPod|iPad);?/i)) {  // IOS
+                return 1;
+            } else {  // 其它
+                return 2;
+            }
+        }
+
+    })
+    //调试
+    loadSingleScript('https://cdn.nullno.com/eruda.min.js', function () {
+        eruda.init()
+    })
+
+</script>
+
+
+
+</body>
+
+</html>

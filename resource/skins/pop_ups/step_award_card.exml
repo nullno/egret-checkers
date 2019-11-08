@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="step_award_cardSkin" width="535" height="673" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e25943ed5" ></w:Config>
+	<e:Group id="AwardCard_group" anchorOffsetX="269.67" anchorOffsetY="331.67" scaleX="1" scaleY="1" width="535" x="269.67" height="673" y="331.67">
+		<e:Button id="Close_AwardCard" label="" scaleX="1" scaleY="1" anchorOffsetX="39" anchorOffsetY="40" y="636" x="268">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Group scaleX="1" scaleY="1" height="569" y="0" anchorOffsetY="0" left="0" right="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="tc_cardbg_png"/>
+		<e:Label id="Title_tip" text="您已拥有此动物卡牌" y="41" textColor="0x904A00" fontFamily="Microsoft YaHei" strokeColor="0xFFEFC2" stroke="2" size="40" horizontalCenter="0"/>
+		<e:Label id="Msg_tip" text="获得道具卡牌" y="95.01" anchorOffsetX="0" width="378.67" anchorOffsetY="0" height="60.66" lineSpacing="5" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" size="25" textColor="0xf55c00" horizontalCenter="0"/>
+		<e:Panel id="Btn_get" skinName="btn_yellow" horizontalCenter="0.5" anchorOffsetX="120" anchorOffsetY="31" y="500.68">
+			<e:Label id="Btn_getLabel" text="确 定" textAlign="center" left="0" right="0" top="0" bottom="0" verticalAlign="middle" bold="true" fontFamily="Microsoft YaHei"/>
+		</e:Panel>
+			<e:Group id="AwardPropCard" width="150" height="150" horizontalCenter="0.5" verticalCenter="19.5" visible="false">
+				<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x80b1ed" ellipseWidth="30" ellipseHeight="30"/>
+				<e:Image source="card_double" fillMode="clip" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="双倍前进卡" y="160" textColor="0x000000" fontFamily="Microsoft YaHei" left="0" right="0" verticalAlign="middle" textAlign="center"/>
+			</e:Group>
+			<e:Group id="AwardPetCard" width="224" height="224" y="191.65" horizontalCenter="1.5" visible="false">
+				<e:Rect left="0" right="0" top="0" bottom="0" ellipseWidth="30" ellipseHeight="30" fillColor="0xdbdbdb"/>
+				<e:Image fillMode="clip" horizontalCenter="0" verticalCenter="0" source="Golden_monkey_png"/>
+				<e:Label text="金思猴" y="230.66" textColor="0x000000" fontFamily="Microsoft YaHei" left="0" right="0" verticalAlign="middle" textAlign="center"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

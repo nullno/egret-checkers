@@ -1,0 +1,5 @@
+{"file":"mian.png","frames":{
+"dice_default":{"x":296,"y":139,"w":183,"h":185,"offX":0,"offY":0,"sourceW":183,"sourceH":185},
+"dice_hover_bg":{"x":0,"y":0,"w":290,"h":251,"offX":0,"offY":0,"sourceW":290,"sourceH":251},
+"bubble":{"x":296,"y":0,"w":438,"h":133,"offX":0,"offY":0,"sourceW":438,"sourceH":133},
+"dice":{"x":740,"y":0,"w":190,"h":212,"offX":0,"offY":0,"sourceW":190,"sourceH":212}}}

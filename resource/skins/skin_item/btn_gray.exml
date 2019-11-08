@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="btn_gray" width="240" height="70" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="btn_ok" anchorOffsetX="0" anchorOffsetY="0" top="0" bottom="0" left="0" right="0">
+		<e:Rect bottom="-3" ellipseWidth="80" ellipseHeight="80" fillColor="0xFFFFFF" width="240" x="0" height="70" visible="false"/>
+		<e:Rect fillColor="0xFF7C2C" top="0" bottom="0" left="0" right="0" ellipseWidth="80" ellipseHeight="80" width="240" height="70" visible="false"/>
+		<e:Label text="确认选择" size="30" bold="true" fontFamily="Microsoft YaHei" verticalAlign="middle" top="0" bottom="0" left="0" right="0" textAlign="center" visible="false"/>
+		<e:Image top="0" bottom="0" left="0" right="0" source="btn_bg_off"/>
+	</e:Group>
+</e:Skin>

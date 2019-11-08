@@ -1,0 +1,454 @@
+{
+	"groups": [
+		{
+			"keys": "panda_png,boy_png,girl_png,icon_json,bg_box_0_png,bg_home_jpg,bg_tl_png,dark_bg_png,ligth_0_png,loading_sz.jpg_png,white_opticy_png,mian_json,sex_boy_png,sex_girl_png,loading_jpg,loading_bar_bg_png,loading_bar_press_png,icon3_json,black_opticy_png,bg_card_png,defult_avatar_png,btn_json,tc_cardbg_png,tc_giftbg_png,Dice_num_json,icon2_json,black_opticy2_png,Asian_elephant_png,card_Asian_elephant_png,card_fox_png,card_Golden_monkey_png,card_Koala_png,card_lion_png,card_panda_png,card_sloth_png,card_White_dolphins_png,fox_png,Golden_monkey_png,Koala_png,lion_png,sloth_png,role_2_ske_json,role_2_tex_json,role_2_tex_png,dice_ske_json,dice_tex_0_json,dice_tex_0_png,role_1_ske_json,role_1_tex_json,role_1_tex_png,panda_ske_json,panda_tex_json,panda_tex_png,white_dolphins_png,head_panda_jpg,head_Asian_elephant_jpg,head_sloth_jpg,head_white_dolphins_jpg,head_lion_jpg,head_Koala_jpg,head_Golden_monkey_jpg",
+			"name": "preload"
+		},
+		{
+			"keys": "loading_bar_bg_png,loading_jpg,loading_bar_press_png",
+			"name": "loading"
+		},
+		{
+			"keys": "map_1_01_jpg,map_1_02_jpg,map_1_03_jpg,map_1_04_jpg,map_1_05_jpg,map_1_06_jpg,map_1_07_jpg,map_1_08_jpg,map_1_09_jpg,map_1_10_jpg,map_1_11_jpg,map_1_12_jpg,map_1_13_jpg,map_1_14_jpg,map_1_15_jpg,map_1_16_jpg,map_1_17_jpg,map_1_18_jpg,map_1_19_jpg,map_1_20_jpg,map_1_21_jpg,map_1_22_jpg,map_1_23_jpg,map_1_24_jpg,map_1_25_jpg",
+			"name": "map_1"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/pet/panda.png",
+			"type": "image",
+			"name": "panda_png"
+		},
+		{
+			"url": "assets/role/boy.png",
+			"type": "image",
+			"name": "boy_png"
+		},
+		{
+			"url": "assets/role/girl.png",
+			"type": "image",
+			"name": "girl_png"
+		},
+		{
+			"url": "assets/icon/icon.json",
+			"type": "sheet",
+			"name": "icon_json",
+			"subkeys": "arrow_down,close,close_outline,heart_red,heart_white,local,lock,warning"
+		},
+		{
+			"url": "assets/bg/bg_box_0.png",
+			"type": "image",
+			"name": "bg_box_0_png"
+		},
+		{
+			"url": "assets/bg/bg_home.jpg",
+			"type": "image",
+			"name": "bg_home_jpg"
+		},
+		{
+			"url": "assets/bg/bg_tl.png",
+			"type": "image",
+			"name": "bg_tl_png"
+		},
+		{
+			"url": "assets/bg/dark_bg.png",
+			"type": "image",
+			"name": "dark_bg_png"
+		},
+		{
+			"url": "assets/bg/ligth_0.png",
+			"type": "image",
+			"name": "ligth_0_png"
+		},
+		{
+			"url": "assets/bg/loading_sz.jpg.png",
+			"type": "image",
+			"name": "loading_sz.jpg_png"
+		},
+		{
+			"url": "assets/bg/white_opticy.png",
+			"type": "image",
+			"name": "white_opticy_png"
+		},
+		{
+			"url": "assets/main/mian.json",
+			"type": "sheet",
+			"name": "mian_json",
+			"subkeys": "bubble,dice,dice_default,dice_hover_bg"
+		},
+		{
+			"url": "assets/role/sex_boy.png",
+			"type": "image",
+			"name": "sex_boy_png"
+		},
+		{
+			"url": "assets/role/sex_girl.png",
+			"type": "image",
+			"name": "sex_girl_png"
+		},
+		{
+			"url": "assets/loading/loading.jpg",
+			"type": "image",
+			"name": "loading_jpg"
+		},
+		{
+			"url": "assets/loading/loading_bar_bg.png",
+			"type": "image",
+			"name": "loading_bar_bg_png"
+		},
+		{
+			"url": "assets/loading/loading_bar_press.png",
+			"type": "image",
+			"name": "loading_bar_press_png"
+		},
+		{
+			"url": "assets/icon/icon3.json",
+			"type": "sheet",
+			"name": "icon3_json",
+			"subkeys": "location_1,location_2"
+		},
+		{
+			"url": "assets/bg/black_opticy.png",
+			"type": "image",
+			"name": "black_opticy_png"
+		},
+		{
+			"url": "assets/bg/bg_card.png",
+			"type": "image",
+			"name": "bg_card_png"
+		},
+		{
+			"url": "assets/icon/defult_avatar.png",
+			"type": "image",
+			"name": "defult_avatar_png"
+		},
+		{
+			"url": "assets/btn/btn.json",
+			"type": "sheet",
+			"name": "btn_json",
+			"subkeys": "btn_bg,btn_bg_off,btn_daytask,btn_hot_activity,btn_prop,btn_selectarea,btn_trip"
+		},
+		{
+			"url": "assets/bg/tc_cardbg.png",
+			"type": "image",
+			"name": "tc_cardbg_png"
+		},
+		{
+			"url": "assets/bg/tc_giftbg.png",
+			"type": "image",
+			"name": "tc_giftbg_png"
+		},
+		{
+			"url": "assets/icon/Dice_num.json",
+			"type": "sheet",
+			"name": "Dice_num_json",
+			"subkeys": "Dice_1,Dice_2,Dice_3,Dice_4,Dice_5,Dice_6"
+		},
+		{
+			"url": "assets/icon/icon2.json",
+			"type": "sheet",
+			"name": "icon2_json",
+			"subkeys": "Hourglass,card_double,card_guard,card_heartadd,card_step,close2,crown,crown_1,gps,home_center,icon_flow,icon_load,icon_step,icon_world,icon_zs"
+		},
+		{
+			"url": "assets/bg/black_opticy2.png",
+			"type": "image",
+			"name": "black_opticy2_png"
+		},
+		{
+			"url": "assets/pet/Asian_elephant.png",
+			"type": "image",
+			"name": "Asian_elephant_png"
+		},
+		{
+			"url": "assets/pet/card_Asian_elephant.png",
+			"type": "image",
+			"name": "card_Asian_elephant_png"
+		},
+		{
+			"url": "assets/pet/card_fox.png",
+			"type": "image",
+			"name": "card_fox_png"
+		},
+		{
+			"url": "assets/pet/card_Golden_monkey.png",
+			"type": "image",
+			"name": "card_Golden_monkey_png"
+		},
+		{
+			"url": "assets/pet/card_Koala.png",
+			"type": "image",
+			"name": "card_Koala_png"
+		},
+		{
+			"url": "assets/pet/card_lion.png",
+			"type": "image",
+			"name": "card_lion_png"
+		},
+		{
+			"url": "assets/pet/card_panda.png",
+			"type": "image",
+			"name": "card_panda_png"
+		},
+		{
+			"url": "assets/pet/card_sloth.png",
+			"type": "image",
+			"name": "card_sloth_png"
+		},
+		{
+			"url": "assets/pet/card_White_dolphins.png",
+			"type": "image",
+			"name": "card_White_dolphins_png"
+		},
+		{
+			"url": "assets/pet/fox.png",
+			"type": "image",
+			"name": "fox_png"
+		},
+		{
+			"url": "assets/pet/Golden_monkey.png",
+			"type": "image",
+			"name": "Golden_monkey_png"
+		},
+		{
+			"url": "assets/pet/Koala.png",
+			"type": "image",
+			"name": "Koala_png"
+		},
+		{
+			"url": "assets/pet/lion.png",
+			"type": "image",
+			"name": "lion_png"
+		},
+		{
+			"url": "assets/pet/sloth.png",
+			"type": "image",
+			"name": "sloth_png"
+		},
+		{
+			"url": "assets/main/map_1/map_1_01.jpg",
+			"type": "image",
+			"name": "map_1_01_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_02.jpg",
+			"type": "image",
+			"name": "map_1_02_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_03.jpg",
+			"type": "image",
+			"name": "map_1_03_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_04.jpg",
+			"type": "image",
+			"name": "map_1_04_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_05.jpg",
+			"type": "image",
+			"name": "map_1_05_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_06.jpg",
+			"type": "image",
+			"name": "map_1_06_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_07.jpg",
+			"type": "image",
+			"name": "map_1_07_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_08.jpg",
+			"type": "image",
+			"name": "map_1_08_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_09.jpg",
+			"type": "image",
+			"name": "map_1_09_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_10.jpg",
+			"type": "image",
+			"name": "map_1_10_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_11.jpg",
+			"type": "image",
+			"name": "map_1_11_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_12.jpg",
+			"type": "image",
+			"name": "map_1_12_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_13.jpg",
+			"type": "image",
+			"name": "map_1_13_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_14.jpg",
+			"type": "image",
+			"name": "map_1_14_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_15.jpg",
+			"type": "image",
+			"name": "map_1_15_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_16.jpg",
+			"type": "image",
+			"name": "map_1_16_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_17.jpg",
+			"type": "image",
+			"name": "map_1_17_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_18.jpg",
+			"type": "image",
+			"name": "map_1_18_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_19.jpg",
+			"type": "image",
+			"name": "map_1_19_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_20.jpg",
+			"type": "image",
+			"name": "map_1_20_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_21.jpg",
+			"type": "image",
+			"name": "map_1_21_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_22.jpg",
+			"type": "image",
+			"name": "map_1_22_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_23.jpg",
+			"type": "image",
+			"name": "map_1_23_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_24.jpg",
+			"type": "image",
+			"name": "map_1_24_jpg"
+		},
+		{
+			"url": "assets/main/map_1/map_1_25.jpg",
+			"type": "image",
+			"name": "map_1_25_jpg"
+		},
+		{
+			"url": "assets/role/role_2/role_2_ske.json",
+			"type": "json",
+			"name": "role_2_ske_json"
+		},
+		{
+			"url": "assets/role/role_2/role_2_tex.json",
+			"type": "json",
+			"name": "role_2_tex_json"
+		},
+		{
+			"url": "assets/role/role_2/role_2_tex.png",
+			"type": "image",
+			"name": "role_2_tex_png"
+		},
+		{
+			"url": "assets/main/dice/dice_ske.json",
+			"type": "json",
+			"name": "dice_ske_json"
+		},
+		{
+			"url": "assets/main/dice/dice_tex_0.json",
+			"type": "json",
+			"name": "dice_tex_0_json"
+		},
+		{
+			"url": "assets/main/dice/dice_tex_0.png",
+			"type": "image",
+			"name": "dice_tex_0_png"
+		},
+		{
+			"url": "assets/role/role_1/role_1_ske.json",
+			"type": "json",
+			"name": "role_1_ske_json"
+		},
+		{
+			"url": "assets/role/role_1/role_1_tex.json",
+			"type": "json",
+			"name": "role_1_tex_json"
+		},
+		{
+			"url": "assets/role/role_1/role_1_tex.png",
+			"type": "image",
+			"name": "role_1_tex_png"
+		},
+		{
+			"url": "assets/pet/panda/panda_ske.json",
+			"type": "json",
+			"name": "panda_ske_json"
+		},
+		{
+			"url": "assets/pet/panda/panda_tex.json",
+			"type": "json",
+			"name": "panda_tex_json"
+		},
+		{
+			"url": "assets/pet/panda/panda_tex.png",
+			"type": "image",
+			"name": "panda_tex_png"
+		},
+		{
+			"url": "assets/pet/white_dolphins.png",
+			"type": "image",
+			"name": "white_dolphins_png"
+		},
+		{
+			"url": "assets/pet/head_panda.jpg",
+			"type": "image",
+			"name": "head_panda_jpg"
+		},
+		{
+			"url": "assets/pet/head_Asian_elephant.jpg",
+			"type": "image",
+			"name": "head_Asian_elephant_jpg"
+		},
+		{
+			"url": "assets/pet/head_sloth.jpg",
+			"type": "image",
+			"name": "head_sloth_jpg"
+		},
+		{
+			"url": "assets/pet/head_white_dolphins.jpg",
+			"type": "image",
+			"name": "head_white_dolphins_jpg"
+		},
+		{
+			"url": "assets/pet/head_lion.jpg",
+			"type": "image",
+			"name": "head_lion_jpg"
+		},
+		{
+			"url": "assets/pet/head_Koala.jpg",
+			"type": "image",
+			"name": "head_Koala_jpg"
+		},
+		{
+			"url": "assets/pet/head_Golden_monkey.jpg",
+			"type": "image",
+			"name": "head_Golden_monkey_jpg"
+		}
+	]
+}

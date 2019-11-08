@@ -1,0 +1,8 @@
+{"file":"btn.png","frames":{
+"btn_bg":{"x":174,"y":89,"w":303,"h":83,"offX":0,"offY":0,"sourceW":303,"sourceH":83},
+"btn_bg_off":{"x":174,"y":0,"w":303,"h":83,"offX":0,"offY":0,"sourceW":303,"sourceH":83},
+"btn_daytask":{"x":174,"y":178,"w":126,"h":138,"offX":0,"offY":0,"sourceW":126,"sourceH":138},
+"btn_hot_activity":{"x":306,"y":178,"w":127,"h":135,"offX":0,"offY":0,"sourceW":127,"sourceH":135},
+"btn_prop":{"x":0,"y":180,"w":126,"h":136,"offX":0,"offY":0,"sourceW":126,"sourceH":136},
+"btn_selectarea":{"x":306,"y":319,"w":179,"h":52,"offX":0,"offY":0,"sourceW":179,"sourceH":52},
+"btn_trip":{"x":0,"y":0,"w":168,"h":174,"offX":0,"offY":0,"sourceW":168,"sourceH":174}}}

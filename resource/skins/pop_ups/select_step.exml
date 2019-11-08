@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="select_stepSkin" width="540" height="685" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e208872c6" ></w:Config>
+	<e:Group id="SelectStep_group" width="540" x="270.67" height="685" y="340" anchorOffsetX="270" anchorOffsetY="340" scaleX="0" scaleY="0">
+		<e:Button id="Close_selectStep" label="" horizontalCenter="0" x="231" y="648" scaleX="1" scaleY="1" anchorOffsetX="39" anchorOffsetY="40">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="close2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="540" height="588.66" left="0" top="0" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetY="0">
+			<e:Rect fillColor="0xffffff" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" ellipseWidth="50" ellipseHeight="50" scaleX="1" scaleY="1"/>
+			<e:Label text="点击选择你想要前进的步数" textColor="0x474747" fontFamily="Microsoft YaHei" textAlign="center" bold="true" size="35" left="0" right="0" y="48"/>
+			<e:Group width="428" height="290" y="138.18" horizontalCenter="0">
+				<e:Group id="DiceStep_group" width="428" height="290" y="0" x="0" scaleX="1" scaleY="1">
+					<e:Button label="" x="64" scaleX="1" scaleY="1" anchorOffsetX="64" anchorOffsetY="64" y="64">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="Dice_1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Button label="" anchorOffsetX="64" anchorOffsetY="64" y="64" x="214">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="Dice_2"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Button label="" anchorOffsetX="64" anchorOffsetY="64" x="364" y="64">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="Dice_3"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Button label="" anchorOffsetX="64" anchorOffsetY="64" x="64" y="226">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="Dice_4"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Button label="" anchorOffsetX="64" anchorOffsetY="64" x="214" y="226">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="Dice_5"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Button label="" anchorOffsetX="64" anchorOffsetY="64" x="364" y="226">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="Dice_6"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+				</e:Group>
+				<e:Rect id="Select_Rect" width="128" height="128" x="64" y="64" ellipseWidth="40" ellipseHeight="40" fillAlpha="0" strokeColor="0xfcc057" strokeWeight="10" scaleX="1" scaleY="1" anchorOffsetX="64" anchorOffsetY="64"/>
+			</e:Group>
+			<e:Panel id="DiceStep_go" y="516.39" skinName="btn_yellow" horizontalCenter="0" anchorOffsetX="118.67" anchorOffsetY="37.33">
+			<e:Label text="前  进" fontFamily="Microsoft YaHei" verticalAlign="middle" left="0" right="0" top="0" bottom="0" textAlign="center" anchorOffsetX="120" anchorOffsetY="33.33"/>
+			</e:Panel>
+		</e:Group>
+	</e:Group>
+</e:Skin>

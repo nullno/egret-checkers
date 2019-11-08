@@ -1,0 +1,9 @@
+{"file":"icon.png","frames":{
+"close":{"x":190,"y":0,"w":47,"h":47,"offX":0,"offY":0,"sourceW":47,"sourceH":47},
+"close_outline":{"x":108,"y":0,"w":76,"h":76,"offX":0,"offY":0,"sourceW":76,"sourceH":76},
+"heart_red":{"x":215,"y":95,"w":23,"h":20,"offX":0,"offY":0,"sourceW":23,"sourceH":20},
+"heart_white":{"x":190,"y":53,"w":43,"h":36,"offX":0,"offY":0,"sourceW":43,"sourceH":36},
+"local":{"x":0,"y":0,"w":102,"h":138,"offX":0,"offY":0,"sourceW":102,"sourceH":138},
+"lock":{"x":108,"y":82,"w":27,"h":31,"offX":0,"offY":0,"sourceW":27,"sourceH":31},
+"warning":{"x":184,"y":95,"w":25,"h":25,"offX":0,"offY":0,"sourceW":25,"sourceH":25},
+"arrow_down":{"x":141,"y":82,"w":37,"h":21,"offX":0,"offY":0,"sourceW":37,"sourceH":21}}}

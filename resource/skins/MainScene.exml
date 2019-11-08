@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainSenceSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16909582434" ></w:Config>
+	<e:Group id="game_sence" left="-1" right="1" top="0" bottom="0"/>
+
+</e:Skin>

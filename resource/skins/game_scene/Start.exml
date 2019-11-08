@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StartSenceSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16908d61563" ></w:Config>
+	<e:Image id="bgcover" scaleX="1" scaleY="1" anchorOffsetX="390" anchorOffsetY="674" source="bg_home_jpg" left="0" right="0" top="0" bottom="0"/>
+	<e:Panel id="select_sex_panel" top="0" bottom="0" left="0" right="0" skinName="maskSkin">
+		<e:Group height="678" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" y="328" scaleX="1" scaleY="1" left="0" right="0">
+			<e:Group id="usershow" width="376" height="119.01" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="197.5" x="-97" y="622" scaleX="1" scaleY="1" visible="false">
+			<e:Image id="avatar" width="77" height="78.97" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" source="" top="0"/>
+			<e:Label id="username" text="username" anchorOffsetX="0" scaleX="1" scaleY="1" textAlign="center" textColor="0xffffff" left="0" right="0" fontFamily="Lucida Family" bottom="0"/>
+			</e:Group>
+			<e:Group id="selectboy" width="280" height="280" x="122.96" y="198.76" anchorOffsetX="63.96" anchorOffsetY="67.76">
+				<e:Image scaleX="1" scaleY="1" source="sex_boy_png" anchorOffsetX="0" anchorOffsetY="0" left="0" right="2" top="0" bottom="0"/>
+				<e:Rect fillAlpha="0" strokeAlpha="0" strokeWeight="5" ellipseWidth="30" ellipseHeight="30" anchorOffsetX="0" left="4" right="7" top="1" bottom="11" anchorOffsetY="0" strokeColor="0xa34c00"/>
+
+
+			</e:Group>
+			<e:Group id="selectgirl" width="280" height="280" x="480" y="207" anchorOffsetX="76" anchorOffsetY="76" scaleX="1" scaleY="1">
+				<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" top="0" left="0" right="0" bottom="0" source="sex_girl_png"/>
+				<e:Rect left="4" right="7" top="1" bottom="11" fillAlpha="0" strokeAlpha="0" strokeWeight="5" ellipseWidth="30" ellipseHeight="30" anchorOffsetX="0" anchorOffsetY="0" x="-341" y="1" scaleX="1" scaleY="1" strokeColor="0xa34c00"/>
+
+
+			</e:Group>
+			<e:Group id="btn_sexok" width="380.57" height="111" y="578.98" anchorOffsetX="190.29" anchorOffsetY="54.98" horizontalCenter="0">
+			<e:Button label="Button" top="0" bottom="0" left="0" right="0" skinName="btn_yellow"/>
+			<e:Label text="进入游戏" size="40" bold="true" fontFamily="Microsoft YaHei" verticalAlign="middle" top="0" bottom="0" left="0" right="0" textAlign="center"/>
+			</e:Group>
+			<e:Label id="zh_h" text="繁体中文" backgroundColor="0xaf1c1c" borderColor="0x0636aa" anchorOffsetX="0" width="170" anchorOffsetY="0" height="96" horizontalCenter="77" verticalCenter="606" verticalAlign="middle" textAlign="center" strokeColor="0xba1d1d" textColor="0xffffff" x="266" y="897" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" visible="false"/>
+			<e:Label id="zh_c" text="简体中文" backgroundColor="0xAF1C1C" borderColor="0x0636AA" anchorOffsetX="0" width="170" anchorOffsetY="0" height="96" horizontalCenter="-100" verticalCenter="606" verticalAlign="middle" textAlign="center" strokeColor="0xBA1D1D" textColor="0xffffff" x="89" y="897" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" visible="false"/>
+
+		</e:Group>
+	</e:Panel>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

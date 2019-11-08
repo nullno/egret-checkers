@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="collect_petstatus" width="140" height="230" xmlns:e="http://ns.egret.com/eui">
+	<e:Group anchorOffsetX="68" anchorOffsetY="116" width="140" x="68" height="230" y="116">
+		<e:Rect fillColor="0xE5E5E5" ellipseWidth="30" ellipseHeight="30" height="140" width="140" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image anchorOffsetX="72" anchorOffsetY="70" height="140" width="140" source="{data.pic}" scaleX="1" scaleY="1" left="0" top="0"/>
+		<e:Label text="{data.name}" x="50" y="153" anchorOffsetX="0" width="82" anchorOffsetY="0" height="28" textColor="0x525252" size="25" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+		<e:Image width="37" height="25" x="9" y="154" source="{data.flag}" scaleX="1" scaleY="1"/>
+		<e:Group width="110" height="35" bottom="0" horizontalCenter="0" x="15" y="195" scaleX="1" scaleY="1">
+			<e:Rect width="110" height="35" y="0" anchorOffsetX="0" anchorOffsetY="0" ellipseWidth="35" ellipseHeight="35" horizontalCenter="0" enabled="false" x="0" scaleX="1" scaleY="1" fillColor="{data.statusColor}"/>
+			<e:Label y="7" size="25" fontFamily="Microsoft YaHei" textAlign="center" left="0" right="0" anchorOffsetY="0" height="25" x="-15" scaleX="1" scaleY="1" text="{data.statusText}"/>
+		</e:Group>
+		<e:Group width="140" height="140" top="0" horizontalCenter="0" x="0" y="0" scaleX="1" scaleY="1" visible="{data.status}">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8" ellipseWidth="30" ellipseHeight="30"/>
+			<e:Image width="41" height="41" x="47" y="50" source="lock" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

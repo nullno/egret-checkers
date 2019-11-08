@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="rank_item" width="540" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect top="0" bottom="0" left="0" right="0" fillColor="0xd1c5b7" ellipseWidth="10"/>
+	<e:Image id="rank_id_icon" x="18" y="4" source="{data.rank_icon}"/>
+	<e:Label id="rank_id" x="8" text="{data.rank_id}" textColor="0x413c38" bold="true" anchorOffsetX="0" width="58" textAlign="center" verticalAlign="middle" verticalCenter="0"/>
+
+	<e:Rect width="60" height="60" x="80" y="13" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="face" width="58" height="58" x="81" anchorOffsetX="0" anchorOffsetY="0" y="14" source="{data.face}"/>
+	<e:Label id="name" x="147" y="10" text="{data.name}" textColor="0x413c38" size="28"/>
+	<e:Label id="grade" size="25" verticalCenter="2.5" text="{data.grade}" textColor="0x413c38" right="16"/>
+	<e:Label id="money" x="176" size="20" verticalCenter="19" text="{data.money}" textColor="0x413c38"/>
+	<e:Image source="art_json.money" x="147" y="47"/>
+</e:Skin>

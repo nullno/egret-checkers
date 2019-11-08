@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="confirm_boxSkin" width="500" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16dce14ab18" ></w:Config>
+	<e:Rect top="0" bottom="0" left="0" right="0" fillColor="0xffffff" ellipseWidth="30" ellipseHeight="30" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Group id="btn_ok" width="170" height="60" x="374.25" y="145.89" anchorOffsetX="85.25" anchorOffsetY="29.37" scaleX="1" scaleY="1">
+		<e:Rect top="0" bottom="0" left="0" right="0" fillColor="0xD14312" ellipseWidth="30" ellipseHeight="30"/>
+		<e:Label text="确定" fontFamily="Microsoft YaHei" size="25" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="btn_cancel" width="170" height="60" x="129" y="147.26" anchorOffsetX="85" anchorOffsetY="30.74" scaleX="1" scaleY="1">
+		<e:Rect top="0" bottom="0" left="0" right="0" ellipseWidth="30" ellipseHeight="30" fillColor="0xf79e2e"/>
+		<e:Label text="取消" fontFamily="Microsoft YaHei" size="25" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="msg" text="msg" y="35" anchorOffsetX="0" width="377" anchorOffsetY="0" height="65" verticalAlign="middle" textColor="0x000000" textAlign="center" size="25" scaleX="1" scaleY="1" horizontalCenter="0"/>
+</e:Skin>

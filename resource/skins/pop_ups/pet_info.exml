@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pet_infoSkin" width="535" height="923" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e24d13e50" ></w:Config>
+	<e:Group id="PetInfo_group" anchorOffsetX="271" anchorOffsetY="462" width="535" height="923" y="462" x="271" scaleX="0" scaleY="0">
+		<e:Button id="Close_petCard" label="" horizontalCenter="0.5" x="231" y="887" scaleX="1" scaleY="1" anchorOffsetX="39" anchorOffsetY="41">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="close2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group height="819" anchorOffsetY="0" left="0" right="0" top="0" anchorOffsetX="0">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff" ellipseWidth="50" ellipseHeight="50"/>
+			<e:Image id="PetCard_Img" height="435" left="0" right="0" top="0" source="card_panda_png"/>
+			<e:Label id="Pet_des" text="       大熊猫属于食肉目、熊科、大熊猫亚科和大熊猫属唯一的哺乳动物，体色为黑白两色，它有着圆圆的脸颊，大大的黑眼圈，胖嘟嘟的身体，标志性的内八字的行走方式，是世界上最可爱的动物之一。" y="462" anchorOffsetY="0" height="238" textColor="0x000000" anchorOffsetX="0" horizontalCenter="1" width="457" size="25" fontFamily="Microsoft YaHei" lineSpacing="5"/>
+			<e:Panel id="Btn_sharePet" width="264" height="66" y="749" horizontalCenter="0.5" anchorOffsetX="131" anchorOffsetY="32">
+				<e:Rect left="0" right="0" top="0" bottom="0" ellipseWidth="65" fillColor="0x9cd255"/>
+				<e:Label text="分  享" left="0" right="0" top="0" bottom="0" verticalAlign="middle" textAlign="center" bold="true" fontFamily="Microsoft YaHei"/>
+			</e:Panel>
+		</e:Group>
+	</e:Group>
+</e:Skin>

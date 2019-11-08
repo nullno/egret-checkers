@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="step_award_tipSkin" width="435" height="465" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e2567b3c6" ></w:Config>
+	<e:Group id="AwardTip_group" width="435" x="219" height="465" y="233" anchorOffsetX="219" anchorOffsetY="233" scaleX="0" scaleY="0">
+		<e:Button id="Close_AwardTip" label="" x="218" scaleX="1" scaleY="1" anchorOffsetX="39" anchorOffsetY="40" y="428">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="close2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group scaleX="1" scaleY="1" height="367" y="0" anchorOffsetY="0" left="0" right="0">
+			<e:Image left="0" right="0" top="0" bottom="0" source="tc_giftbg_png"/>
+			<e:Label id="Title_tip" text="恭喜您" y="41" textColor="0x904a00" fontFamily="Microsoft YaHei" strokeColor="0xffefc2" stroke="2" size="35" horizontalCenter="0"/>
+			<e:Label id="Msg_tip" text="继续前进5步" y="151" anchorOffsetX="0" width="332" anchorOffsetY="0" horizontalCenter="0.5" height="98" textColor="0x000000" lineSpacing="5" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" size="25"/>
+			<e:Panel id="Btn_get" y="303" skinName="btn_yellow" horizontalCenter="0.5" anchorOffsetX="120" anchorOffsetY="31">
+			<e:Label text="收  下" textAlign="center" left="0" right="0" top="0" bottom="0" verticalAlign="middle" bold="true" fontFamily="Microsoft YaHei"/>
+			</e:Panel>
+		</e:Group>
+	</e:Group>
+</e:Skin>
