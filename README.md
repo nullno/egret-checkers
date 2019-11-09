@@ -1,4 +1,4 @@
-#跳格子小游戏主要部分记录
+# 跳格子小游戏主要部分记录
 
 如果是此类型的小游戏,可以直接换地图，换皮服使用，可eui里方便操作，对刚学习使用白鹭的同学可做一个学习参考；
 项目中Tool.ts,有一些常用的方法，拖动、动态列表点击、列表中不同位置的点击等可直接在项目里使用。
@@ -7,10 +7,10 @@ demo地址：https://source.nullno.com/egret-checkers/
 
 
 手机查看：
-![扫码查看](https://source.nullno.com/vue-upload/upload/y1hbUUQkQpTD9dpSSmLm6lFK1xqRL3.jpeg)
+![扫码查看](https://source.nullno.com/vue-upload/upload/y1hbUUQkQpTD9dpSSmLm6lFK1xqRL3.jpeg  '扫码查看')
 
 
-##地图制作
+### 地图制作
   
   地图数据参考:src\game\data\mainData.ts CLASS ->MapsData
 
@@ -26,21 +26,21 @@ demo地址：https://source.nullno.com/egret-checkers/
     
   
  
-##地图操作
+### 地图操作
   
   1.拖动交互：给地图添加拖动事件，这里会有一个地图边界设定，拖到地图的时候，上下左右边界尽可能不越过屏幕边界；
 
   2.放大缩小：为保持边界动态改变，不直接用scale属性，这里是把MapsData地图的参数值都x倍数，重新渲染地图，操作体验不好，肯定有其它  更优解决方案；
 
   
-##摇色子
+### 摇色子
 
    1.色子动画：更具1-6的色子图片，可以用tween自己写动画，有条件的用龙骨等工具做更逼真的色子动画；此项目用的是龙骨做的可扫码参考；
 
    2.动画结束：自己写动画可能需要设定时器，用龙骨动画 更据egret.Event.COMPLETE 一次播放回调完成执行后续事件；
 
 
-##走棋子
+### 走棋子
 
    1.坐标位移：看似是跳着在走，实际上就是坐标的位移，坐标是根据“地图制作”中的标点来的，然后在位移的过程中做一些符合跳跃的动画；
 
